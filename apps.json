@@ -18,7 +18,7 @@
         {"name":"Paperless","url":"https://paperless.smeets.ee","icon":"leaf", "target": "_blank"},
         {"name":"LimeSurvey","url":"https://limesurvey.smeets.ee/index.php?r=admin", "url_pretty": "limesurvey.smeets.ee", "icon":"checkbox-marked-circle-outline", "target": "_blank"},
         {"name":"Jellyfin","url":"https://home.jellyfin.smeets.ee", "img":"assets/img/jellyfin.svg", "target": "_blank"},
-        {"name":"HedgeDoc","url":"https://hedgedoc.smeets.ee", "img":"assets/img/hedgedoc.svg", "target": "_blank"}
+        {"name":"HedgeDoc","url":"https://hedgedoc.smeets.ee", "img":"assets/img/hedgedoc.svg", "target": "_blank"},
         {"name":"Overleaf","url":"https://overleaf.smeets.ee", "img":"assets/img/overleaf.svg", "target": "_blank"}
     ]
 }
