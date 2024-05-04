@@ -20,5 +20,6 @@
         {"name":"Jellyfin","url":"https://home.jellyfin.smeets.ee", "img":"assets/img/jellyfin.svg", "target": "_blank"},
         {"name":"HedgeDoc","url":"https://hedgedoc.smeets.ee", "img":"assets/img/hedgedoc.svg", "target": "_blank"},
         {"name":"Overleaf","url":"https://overleaf.smeets.ee", "img":"assets/img/overleaf.svg", "target": "_blank"}
+        {"name":"Zulip","url":"https://zulip.smeets.ee", "img":"assets/img/zulip.svg", "target": "_blank"}
     ]
 }
