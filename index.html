@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>SUI</title>
+    <title>Smeets</title>
     <meta charset="utf-8">
-    <meta name="description" content="a startpage for your server and / or new tab page">
+    <meta name="description" content="a startpage for your server">
     <meta http-equiv="Default-Style" content="">
     <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
     <link type="text/css" rel="stylesheet" href="./assets/css/styles.css"  media="screen,projection"/>
@@ -13,7 +13,13 @@
 </head>
 
 <body onload="loadFunctions()">
-
+    <script>
+        // Based on https://stackoverflow.com/q/42245693
+        Handlebars.registerHelper('replace', function( find, replace, options) {
+        var string = options.fn(this);
+        return string.replace( find, replace );
+        });
+    </script>
     <section id="modal">
         <div>
             <header id="modal-header">
@@ -83,11 +89,12 @@
                 {{#apps}}
                     <div class="apps_item">
                         <div class="apps_icon">
-                            <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
+                            {{#if icon}}<span class="iconify icon" data-icon="mdi-{{icon}}"></span>{{/if}}
+                            {{#if img}}<img src="{{img}}"></img>{{/if}}
                         </div>
                         <div class="apps_text">
-                            <a href="http://{{url}}" {{#if target}}target="{{target}}"{{/if}} >{{name}}</a>
-                            <span id="app-address">{{url}}</span>
+                            <a href="{{url}}" {{#if target}}target="{{target}}"{{/if}} >{{name}}</a>
+                            {{#if url_pretty}}<span id="app-address">{{url_pretty}}</span>{{else}}<span id="app-address">{{#replace "https://" ""}}{{#replace "http://" ""}}{{url}}{{/replace}}{{/replace}}</span>{{/if}}
                         </div>
                     </div>
                 {{/apps}}
@@ -103,6 +110,7 @@
                     <div id="links_item">
                         <h4>{{category}}</h4>
                         {{#links}}
+                            {{#if icon}}<span class="links_icon iconify icon" data-icon="mdi-{{icon}}"></span>{{/if}}
                             <a href="{{url}}" target="{{target}}" class="theme_color-border theme_text-select">{{name}}</a>
                         {{/links}}
                     </div>

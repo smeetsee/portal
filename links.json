@@ -1,141 +1,82 @@
 {
             "bookmarks" : [
               {
-                "category": "Communicate",
+                "category": "Office",
                 "links": [
                   {
-                    "name": "Discord",
-                    "url": "https://discord.com"
+                    "name": "Outlook",
+                    "url": "https://outlook.office.com/owa?realms=smeets.ee",
+                    "icon": "microsoft-outlook",
+                    "target": "_blank"
                   },
                   {
-                    "name": "Gmail",
-                    "url": "http://gmail.com"
+                    "name": "OneDrive",
+                    "url": "https://smeetsre-my.sharepoint.com",
+                    "icon": "microsoft-onedrive",
+                    "target": "_blank"
                   },
                   {
-                    "name": "Slack",
-                    "url": "https://slack.com/signin",
+                    "name": "Teams",
+                    "url": "https://teams.microsoft.com",
+                    "icon": "microsoft-teams",
                     "target": "_blank"
                   }
                 ]
               },
               {
-                "category": "Cloud",
+                "category": "Google",
                 "links": [
                   {
-                    "name": "Box",
-                    "url": "https://box.com",
-                    "target": "sui"
+                    "name": "Drive",
+                    "url": "https://drive.google.com/a/smeets.ee",
+                    "icon": "google-drive",
+                    "target": "_blank"
                   },
                   {
-                    "name": "Dropbox",
-                    "url": "https://dropbox.com",
-                    "target": "sui"
+                    "name": "Photos",
+                    "url": "https://www.google.com/a/smeets.ee/ServiceLogin?continue=https://photos.google.com",
+                    "icon": "image",
+                    "target": "_blank"
+                  }
+                ]
+              },
+              {
+                "category": "Account",
+                "links": [
+                  {
+                    "name": "Keycloak - account management",
+                    "url": "https://auth.smeets.ee/realms/smeets/account",
+                    "icon": "account-key",
+                    "target": "_blank"
+                  }
+                ]
+              },
+              {
+                "category": "NAS",
+                "links": [
+                  {
+                    "name": "Mail",
+                    "url": "https://mail.smeets.ee",
+                    "icon": "email-outline",
+                    "target": "_blank"
+                  },
+                  {
+                    "name": "Calendar",
+                    "url": "https://calendar.smeets.ee",
+                    "icon": "calendar-outline",
+                    "target": "_blank"
+                  },
+                  {
+                    "name": "Contacts",
+                    "url": "https://contacts.smeets.ee",
+                    "icon": "contacts-outline",
+                    "target": "_blank"
                   },
                   {
                     "name": "Drive",
-                    "url": "https://drive.google.com"
-                  }
-                ]
-              },
-              {
-                "category": "Design",
-                "links": [
-                  {
-                    "name": "Awwwards",
-                    "url": "https://awwwards.com"
-                  },
-                  {
-                    "name": "Dribbble",
-                    "url": "https://dribbble.com"
-                  },
-                  {
-                    "name": "Muz.li",
-                    "url": "https://medium.muz.li/"
-                  }
-                ]
-              },
-              {
-                "category": "Dev",
-                "links": [
-                  {
-                    "name": "Codepen",
-                    "url": "https://codepen.io/"
-                  },
-                  {
-                    "name": "Devdocs",
-                    "url": "https://devdocs.io"
-                  },
-                  {
-                    "name": "Devhints",
-                    "url": "https://devhints.io"
-                  }
-                ]
-              },
-              {
-                "category": "Lifestyle",
-                "links": [
-                  {
-                    "name": "Design Milk",
-                    "url": "https://design-milk.com/category/interior-design/"
-                  },
-                  {
-                    "name": "Dwell",
-                    "url": "https://www.dwell.com/"
-                  },
-                  {
-                    "name": "Freshome",
-                    "url": "https://www.mymove.com/freshome/"
-                  }
-                ]
-              },
-              {
-                "category": "Media",
-                "links": [
-                  {
-                    "name": "Spotify",
-                    "url": "http://browse.spotify.com"
-                  },
-                  {
-                    "name": "Trakt",
-                    "url": "http://trakt.tv"
-                  },
-                  {
-                    "name": "YouTube",
-                    "url": "https://youtube.com/feed/subscriptions"
-                  }
-                ]
-              },
-              {
-                "category": "Reading",
-                "links": [
-                  {
-                    "name": "Instapaper",
-                    "url": "https://www.instapaper.com/u"
-                  },
-                  {
-                    "name": "Medium",
-                    "url": "http://medium.com"
-                  },
-                  {
-                    "name": "Reddit",
-                    "url": "http://reddit.com"
-                  }
-                ]
-              },
-              {
-                "category": "Tech",
-                "links": [
-                  {
-                    "name": "TheNextWeb",
-                    "url": "https://thenextweb.com/"
-                  },
-                  {
-                    "name": "The Verge",
-                    "url": "https://theverge.com/"
-                  },
-                  {
-                    "name": "MIT Technology Review",
-                    "url": "https://www.technologyreview.com/"
+                    "url": "https://drive.smeets.ee",
+                    "icon": "cloud-sync-outline",
+                    "target": "_blank"
                   }
                 ]
               }
