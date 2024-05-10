@@ -5,7 +5,6 @@
         {"name":"Mastodon","url":"https://mastodon.smeets.ee","icon":"mastodon", "target": "_blank"},
         {"name":"WordPress","url":"https://blogs.smeets.ee","icon":"wordpress", "target": "_blank"},
         {"name":"Pterodactyl","url":"https://pterodactyl.smeets.ee","icon":"google-downasaur", "target": "_blank"},
-        {"name":"Sandstorm","url":"https://sandstorm.smeets.ee","icon":"docker", "target": "_blank"},
         {"name":"GitLab","url":"https://gitlab.smeets.ee","icon":"gitlab", "target": "_blank"},
         {"name":"Phabricator","url":"https://phabricator.smeets.ee","icon":"eye", "target": "_blank"},
         {"name":"PHPMyAdmin","url":"https://phpmyadmin.web3.smeets.ee","icon":"database", "target": "_blank"},
