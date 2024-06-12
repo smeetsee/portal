@@ -21,7 +21,7 @@
         {"name":"Overleaf","url":"https://overleaf.smeets.ee", "img":"assets/img/overleaf.svg", "target": "_blank"},
         {"name":"Zulip","url":"https://zulip.smeets.ee", "img":"assets/img/zulip.svg", "target": "_blank"},
         {"name":"Mailcow","url":"https://mail.smeets.ee/?iam_sso=1", "url_pretty": "mail.smeets.ee", "icon":"email", "target": "_blank"},
-        {"name":"BigBlueButton","url":"https://zulip.smeets.ee", "icon":"message-video", "target": "_blank"}
+        {"name":"BigBlueButton","url":"https://bbb.smeets.ee", "icon":"message-video", "target": "_blank"}
 
     ]
 }
