@@ -56,7 +56,7 @@
                 "links": [
                   {
                     "name": "Mail",
-                    "url": "https://mail.smeets.ee",
+                    "url": "https://mailplus.smeets.ee",
                     "icon": "email-outline",
                     "target": "_blank"
                   },

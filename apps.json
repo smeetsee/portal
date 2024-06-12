@@ -19,6 +19,9 @@
         {"name":"Jellyfin","url":"https://home.jellyfin.smeets.ee", "img":"assets/img/jellyfin.svg", "target": "_blank"},
         {"name":"HedgeDoc","url":"https://hedgedoc.smeets.ee", "img":"assets/img/hedgedoc.svg", "target": "_blank"},
         {"name":"Overleaf","url":"https://overleaf.smeets.ee", "img":"assets/img/overleaf.svg", "target": "_blank"},
-        {"name":"Zulip","url":"https://zulip.smeets.ee", "img":"assets/img/zulip.svg", "target": "_blank"}
+        {"name":"Zulip","url":"https://zulip.smeets.ee", "img":"assets/img/zulip.svg", "target": "_blank"},
+        {"name":"Mailcow","url":"https://mail.smeets.ee/?iam_sso=1", "url_pretty": "mail.smeets.ee", "icon":"mail-rounded", "target": "_blank"},
+        {"name":"BigBlueButton","url":"https://zulip.smeets.ee", "icon":"video-chat-rounded", "target": "_blank"}
+
     ]
 }
