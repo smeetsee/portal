@@ -55,24 +55,6 @@
                 "category": "NAS",
                 "links": [
                   {
-                    "name": "Mail",
-                    "url": "https://mailplus.smeets.ee",
-                    "icon": "email-outline",
-                    "target": "_blank"
-                  },
-                  {
-                    "name": "Calendar",
-                    "url": "https://calendar.smeets.ee",
-                    "icon": "calendar-outline",
-                    "target": "_blank"
-                  },
-                  {
-                    "name": "Contacts",
-                    "url": "https://contacts.smeets.ee",
-                    "icon": "contacts-outline",
-                    "target": "_blank"
-                  },
-                  {
                     "name": "Drive",
                     "url": "https://drive.smeets.ee",
                     "icon": "cloud-sync-outline",
